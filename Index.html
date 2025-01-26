@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackerSpace</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff7eb3, #8b5cf6);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin: 15px 0 25px;
+        }
+
+        .cta {
+            text-decoration: none;
+            color: white;
+            background: #ff6a00;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+            display: inline-block;
+        }
+
+        .cta:hover {
+            background: #e55d00;
+            transform: scale(1.05);
+        }
+
+        .main-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: #161b22;
+            border-top: 5px solid #8b5cf6;
+        }
+
+        .main-section h2 {
+            font-size: 2.5em;
+            margin: 0 0 20px;
+            color: #ff7eb3;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0d1117;
+            color: #8b949e;
+            padding: 20px;
+            font-size: 0.9em;
+            border-top: 1px solid #30363d;
+        }
+
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #1f6feb;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            .cta {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+
+            .main-section h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To The HackerSpace</h1>
+        <p>Discover resources for Cyber Security, Ethical Hacking, and Pentesting.</p>
+        <a href="Resources.html" class="cta">Explore Resources</a>
+    </header>
+    
+    <section id="resources" class="main-section">
+        <h2>HackerSpace</h2>
+        <p>Your gateway to mastering the art of cybersecurity and ethical hacking.</p>
+    </section>
+
+    <footer>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </footer>
+</body>
+</html>

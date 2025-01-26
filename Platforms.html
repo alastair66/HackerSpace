@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platforms- HackerSpace</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #ff7eb3, #8b5cf6);
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .card {
+            background: #161b22;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 0;
+            padding: 15px;
+            background: #8b5cf6;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0d1117;
+            color: #8b949e;
+            font-size: 0.9em;
+            border-top: 1px solid #30363d;
+        }
+
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #1f6feb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Platforms</h1>
+        <p> Where you can hack and get paid for finding vulnerabilities</p>
+    </header>
+
+    <div class="grid">
+        <div class="card">
+            <a href="https://www.hackerone.com">
+                <img src="https://etimg.etb2bimg.com/photo/102402301.cms" alt="Hackerone">
+                <h3>HACKERONE</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.bugcrowd.com">
+                <img src="https://www.bugcrowd.com/wp-content/uploads/2022/05/SocialShareGraphics-Bugcrowd-3.jpg" alt="tcm-sec">
+                <h3>BUGCROWD</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.intigriti.com">
+                <img src="https://app.intigriti.com/assets/img/meta-img-ksuhmq.png" alt="intigriti">
+                <h3>INTIGRITI</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.yeswehack.com">
+                <img src="https://maddyness.twic.pics/2024/06/YesWeHack.png?twic=v1/focus=auto/cover=820x426" alt="YesWeHack">
+                <h3>YESWEHACK</h3>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <a href="index.html">Home</a>
+        <a href="#">Contact</a>
+    </footer>
+</body>
+</html>
